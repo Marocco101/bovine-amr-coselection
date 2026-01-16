@@ -28,7 +28,15 @@ Contrary to the co-selection hypothesis, **no significant correlation** was foun
 | **2019** | Colistin vs TMP-SMX | 0.09 | 0.61 | No Correlation |
 | **2019** | Colistin vs Tetracycline | 0.28 | 0.13 | No Correlation |
 
-## Conclusion
+TMP-SMX vs Colistin: Pearson r=−0.12,p=0.52
+![Correlation Plot](plots/correlation_plot_tmp_2019.jpg)
+![Correlation Plot](plots/correlation_plot_tmp_2024.jpg)
+
+Tetracycline vs Colistin: Pearson r=−0.26,p=0.17
+![Correlation Plot](plots/correlation_plot_terra_2019.jpg)
+![Correlation Plot](plots/correlation_plot_terra_2024.jpg)
+
+## Discussion 
 The consistent lack of correlation in aggregated regional data empahasizes the **"Ecological Challenge"** of macroscopic surveillance. It suggests that mechanisms of chromosomal integration of mobile genetic elements are invisible to current monitoring strategies. Also, the lack of correlation with antibiotic usage indicates that resistance is no longer driven by co-selection pressure, but has likely stabilized via chromosomal integration. These support the need for the genomic approach to be adopted to the current surveillance system as proposed in my PhD proposal. 
 
 ## Files
