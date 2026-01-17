@@ -1,0 +1,38 @@
+# ==============================================================================
+> # Analysis 1: Colistin vs TMP-SMX (Trimethoprim-Sulfonamides)
+> # ==============================================================================
+
+> # Statistical Test (Pearson Correlation)
+> cor_res_tmp <- cor.test(df_merged_tmp$rate_tmp, df_merged_tmp$rate_colistin)
+> print(cor_res_tmp)
+
+	Pearson's product-moment correlation
+
+data:  df_merged_tmp$rate_tmp and df_merged_tmp$rate_colistin
+t = -0.65388, df = 29, p-value = 0.5183
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.4554262  0.2442337
+sample estimates:
+      cor 
+-0.120538 
+
+ # ==============================================================================
+> # Analysis 2: Colistin vs Tetracycline
+> # ==============================================================================
+> 
+> # Statistical Test
+> cor_res_tet <- cor.test(df_merged_tet$rate_tetra, df_merged_tet$rate_colistin)
+> print(cor_res_tet)
+
+	Pearson's product-moment correlation
+
+data:  df_merged_tet$rate_tetra and df_merged_tet$rate_colistin
+t = -1.4133, df = 27, p-value = 0.169
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.5737752  0.1151158
+sample estimates:
+       cor 
+-0.2624634 
+
