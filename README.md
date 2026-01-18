@@ -1,5 +1,17 @@
 # [WP2 Framework] Spatial Correlation Analysis: Department-Level Resistance Dynamics
 
+## Summary & Key Implications
+
+**Main Objective:** To develop a framework for analyzing the spatiotemporal correlation of antimicrobial resistance at the department level in France.
+
+### Summary of Framework Development
+* **Data Integration:** Established a spatial mapping pipeline integrating ALEA (exposure) and RESAPATH (resistance) data across all French departments.
+* **Scale Analysis:** Preliminary screening at the department level showed no significant correlation between local usage and local resistance ($r = -0.12, p = 0.52$).
+* **Beyond Administrative Borders:** The lack of administrative correlation suggests that resistance dynamics are driven by factors bypassing farm-level usage (i.e. environment).
+
+### Key Implication
+These inconclusive administrative correlations justify the necessity of a **One Health approach**. This framework paves the way for WP2, focusing on environmental pathways (water/soil) and river basin dynamics as primary drivers of dissemination.
+
 ## Overview
 This repository contains the preliminary ecological analysis for **Preliminary Ecological Analysis**. 
 We investigated the potential co-selection between Colistin resistance and alternative antibiotics (TMP-SMX, Tetracycline) in bovine *E. coli* using surveillance data from the RESAPATH network (France).
